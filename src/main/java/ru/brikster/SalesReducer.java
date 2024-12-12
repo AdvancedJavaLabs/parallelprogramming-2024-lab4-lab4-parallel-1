@@ -29,7 +29,7 @@ public class SalesReducer extends Reducer<Text, SalesMetric, Text, Text> {
 
         for (SalesMetric val : values) {
             totalValue += val.getValue().get();
-            totalCount += val.getCount().get();
+            totalCount += 1;
             totalQuantity += val.getQuantity().get();
         }
 

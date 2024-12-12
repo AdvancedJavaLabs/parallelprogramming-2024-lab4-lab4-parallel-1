@@ -36,19 +36,19 @@ public class SalesMapper extends Mapper<Object, Text, Text, SalesMetric> {
             SalesMetric metric = new SalesMetric();
             switch (metricType) {
                 case REVENUE:
-                    metric.set(id, category, revenue, 1, quantity);
+                    metric.set(id, category, revenue, quantity);
                     break;
                 case AVERAGE_PRICE:
-                    metric.set(id, category, price, 1, quantity);
+                    metric.set(id, category, price, quantity);
                     break;
                 case ITEMS_SOLD:
-                    metric.set(id, category, quantity, 1, quantity);
+                    metric.set(id, category, quantity, quantity);
                     break;
                 case AVERAGE_QUANTITY:
-                    metric.set(id, category, quantity, 1, 1);
+                    metric.set(id, category, quantity, 1);
                     break;
                 case TRANSACTIONS:
-                    metric.set(id, category, 1, 1, quantity);
+                    metric.set(id, category, 1, quantity);
                     break;
                 default:
                     return;
