@@ -1,0 +1,10 @@
+ms: 9397, salted: false, reducers: 1
+ms: 9543, salted: true, reducers: 1
+ms: 9498, salted: false, reducers: 4
+ms: 11546, salted: false, reducers: 8
+ms: 14414, salted: false, reducers: 16
+ms: 8868, salted: true, reducers: 1
+ms: 12586, salted: true, reducers: 1
+ms: 9678, salted: true, reducers: 1
+ms: 9434, salted: true, reducers: 1
+ms: 8510, salted: true, reducers: 1
